@@ -57,7 +57,7 @@ const StudentForm = () => {
     <form onSubmit={handleSubmit}>
       <div>
         <label>
-        नाम:
+           नाम:
           <input
             type="text"
             name="name"

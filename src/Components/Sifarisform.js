@@ -63,8 +63,8 @@ const SifarisForm = () => {
     <form onSubmit={handleSubmit} className='sifaris__form'>
       <div>
         <label>
-        संस्थाको नाम:
-          <input
+        संस्थाको नाम:<br/>
+          <input className='input__form'
             type="text"
             name="name"
             value={formData.name}
@@ -75,8 +75,8 @@ const SifarisForm = () => {
       </div>
       <div>
         <label>
-        मिति:
-          <input
+        मिति:<br/>
+          <input className='input__form'
             type="text"
             name="date"
             value={formData.date}
@@ -87,8 +87,8 @@ const SifarisForm = () => {
       </div>
       <div>
         <label>
-          दर्ता नम्बर:
-          <input
+          दर्ता नम्बर:<br/>
+          <input className='input__form'
             type="text"
             name="dartanum"
             value={formData.dartanum}
@@ -99,8 +99,8 @@ const SifarisForm = () => {
       </div>
       <div>
         <label>
-          दर्ता भएको आर्थिक वर्ष:
-          <input
+          दर्ता भएको आर्थिक वर्ष:<br/>
+          <input className='input__form'
             type="text"
             name="dartafy"
             value={formData.dartafy}
@@ -111,8 +111,8 @@ const SifarisForm = () => {
       </div>
       <div>
         <label>
-          वडा नं.:
-          <input
+          वडा नं.:<br/>
+          <input className='input__form'
             type="text"
             name="ward"
             value={formData.ward}
@@ -123,8 +123,8 @@ const SifarisForm = () => {
       </div>
       <div>
         <label>
-          संस्थाको पत्रको चलानी:
-          <input
+          संस्थाको पत्रको चलानी:<br/>
+          <input className='input__form'
             type="text"
             name="sansthachalani"
             value={formData.sansthachalani}
@@ -133,7 +133,8 @@ const SifarisForm = () => {
           />
         </label>
       </div>
-      <button type="submit">Submit</button>
+     
+    <button className='form__button' type="submit">Submit</button>
     </form>
     </div>
     <div className='letter__generator'>

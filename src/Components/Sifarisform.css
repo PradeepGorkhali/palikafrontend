@@ -1,11 +1,11 @@
 
 .letter__generator__container{
-    background-color: rgb(215, 226, 240);
+    background-color: rgb(255, 255, 255);
 }
 .letter__form__container{
         background-size: cover;
         padding-top: 30px;
-        border: 1px solid red;
+       
 }
 .letter__generator__container{
     display: flex;
@@ -13,7 +13,27 @@
     justify-content: space-around;
 }
 .letter__generator{
-    border: 1px solid green;
+    border: 2px solid rgb(112, 9, 1);
     width: 55%;
     
 }
+.input__form {
+    width: 300px;
+    border: 2px solid rgb(171, 179, 171);
+    border-radius: 7px;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+  }
+  .form__button{
+    background-color: rgb(95, 8, 2);
+    color: white;
+    padding: 7px 10px 7px 10px;
+    margin-left: 6px;
+    width: 318px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+ 
