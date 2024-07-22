@@ -4,7 +4,8 @@
    
 }
 .headerWrapper{
-    margin-top: 30px;
+    
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,6 +36,7 @@
 }
 .letter__body{
     margin-top: 45px;
+    padding-bottom: 20px;
 }
 .letter__subject > h5{
     font-size: 15px;
