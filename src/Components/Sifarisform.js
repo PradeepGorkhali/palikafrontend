@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Sifarisform.css'
+import Letter from "../Components/Letter"
 
 const SifarisForm = () => {
   // State variables to store form data
@@ -56,7 +58,9 @@ const SifarisForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div className='letter__generator__container'>
+    <div className='letter__form__container'>
+    <form onSubmit={handleSubmit} className='sifaris__form'>
       <div>
         <label>
         संस्थाको नाम:
@@ -131,6 +135,11 @@ const SifarisForm = () => {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </div>
+    <div className='letter__generator'>
+      <Letter/>
+    </div>
+    </div>
   );
 };
 

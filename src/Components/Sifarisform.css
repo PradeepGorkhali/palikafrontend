@@ -1,0 +1,12 @@
+.letter__form__container{
+        background-size: cover;
+}
+.letter__generator__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.letter__generator{
+    width: 50%;
+    
+}
