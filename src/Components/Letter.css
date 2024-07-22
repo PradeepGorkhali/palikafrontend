@@ -1,0 +1,67 @@
+.header{
+    background-color: white;
+   
+}
+.headerWrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nisanachaap_chalani, .municipality__address{
+ display: flex;
+ flex-direction: column;
+}
+.nisanachap_image{
+    width: 80px;
+}
+.municipality__address{
+    align-items: center;
+    color: red;
+}
+.nagarpalika_name>h2{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif
+}
+.patra_chalani{
+    margin-top: 8px;
+    color: red;
+}
+.municipalitylogokoshi{
+    margin-top: 8px;
+    color: red;
+}
+.letter__body{
+    margin-top: 45px;
+}
+.letter__subject > h5{
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+.letter__dpo{
+    margin-top: 60px;
+    padding-left: 43px;
+}
+.letter__paragraph{
+    padding: 25px 30px 25px 43px;
+    text-align: justify;
+}
+.letter__mayorsig{
+    margin-top: 40px;
+    text-align: right;
+    padding-right: 20px;
+}
+.letter__mayorsig>p{
+    text-align: center;
+}
+.mayor__sig>p{
+    padding-right: 50px;
+}
+.mayor__name>p{
+    padding-right:60px;
+}
+.mayor__post{
+    padding-right: 83px;
+}

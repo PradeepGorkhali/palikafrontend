@@ -1,0 +1,26 @@
+.container__karar{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+.karar__title > h2{
+   text-align: center;
+}
+.karar__body{
+    margin-top: 20px;
+    text-align: justify;
+}
+.karar__body>h5{
+    margin-top: 10px;
+}
+.karar__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.karar__footer{
+    margin-top: 10px;
+}
+.isbi__karar{
+    margin-top: 25px;
+    text-align: center;
+}
